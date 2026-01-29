@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f2f7ff;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #6fb1fc, #4364f7);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+nav {
+    background: #e3edff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #1e3c72;
+    font-weight: 600;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+main h3 {
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+footer {
+    background: #4364f7;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* LOGIN */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6fb1fc, #4364f7);
+}
+
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #4364f7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
